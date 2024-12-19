@@ -53,4 +53,17 @@ class Employee:
 e1=Employee()
 e2=Employee()
 e3=Employee()
-print("number of employe is:",Employee.count)
+print("number of employee is:",Employee.count)
+
+class SoftwareEngineer:
+    #class attribute
+    alice="Keyboard Magician"
+    #instance attribute
+    def __init__(self,name,age,experience,salary):
+        self.name=name
+        self.age=age
+        self.experience=experience
+        self.salary=salary
+s1=SoftwareEngineer("max",35,10,10000)
+print(s1.name)
+
